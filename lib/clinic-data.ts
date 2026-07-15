@@ -50,8 +50,18 @@ export const heroSlides = [
     alt: 'Advanced dental procedure',
   },
   {
-    type: 'video',
-    src: '/clinic/vid.mp4',
-    alt: 'Clinic video',
+    type: 'image',
+    src: '/clinic/surgery2.jpeg',
+    alt: 'Advanced dental procedure',
   },
+  {
+    type: 'image',
+    src: '/clinic/waiting-wide.jpeg',
+    alt: 'Waiting Area of Bhandari Dental Clinic',
+  },
+  {
+    type: 'image',
+    src: '/clinic/waiting-stairs.jpeg',
+    alt: 'Waiting Area of Bhandari Dental Clinic',
+  }
 ]

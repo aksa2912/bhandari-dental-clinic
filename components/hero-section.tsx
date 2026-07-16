@@ -107,7 +107,7 @@
   >
     
   </motion.div>
-        <div className="flex flex-col items-center text-center gap-6 lg:flex-row lg:items-center lg:text-left lg:gap-10">
+        <div className="flex flex-col items-center text-center gap-4 lg:flex-row lg:items-center lg:text-left lg:gap-10">
     {/* Logo */}
     <motion.div
       initial={{ opacity: 0, x: -30 }}
@@ -116,12 +116,12 @@
       className="shrink-0"
     >
       <Image
-        src="clinic/logo.png"
+        src="/clinic/logo2.png"
         alt="Bhandari Dental Clinic Logo"
         width={350}
         height={300}
         priority
-       className="h-auto w-24 sm:w-40 md:w-52 lg:w-72"    />
+      className="h-auto w-44 sm:w-48 md:w-56 lg:w-72"    />
     </motion.div>
 
     {/* Text Content */}
@@ -130,7 +130,7 @@
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.05 }}
-        className="max-w-3xl font-heading text-3xl font-extrabold leading-tight tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl"
+        className="max-w-3xl font-heading text-2xl font-extrabold leading-tight tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl"
       >
         Advanced Dental Care in Sirhind
       </motion.h1>

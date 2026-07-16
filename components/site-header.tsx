@@ -39,20 +39,20 @@ export function SiteHeader() {
     >
      <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="#home" className="flex items-center gap-2.5">
-          <span className="flex size-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-blue to-brand-teal text-primary-foreground shadow-md">
+          <span className="flex size-8 sm:size-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-blue to-brand-teal text-primary-foreground shadow-md">
           <ToothMark />
           </span>
           <span className="flex flex-col leading-none">
             <span
               className={cn(
-                'font-heading text-base font-bold tracking-tight',
+                'font-heading text-sm sm:text-base font-bold tracking-tight',
                 scrolled ? 'text-foreground' : 'text-foreground',
               )}
             >
               Bhandari Dental Clinic, Sirhind
             </span>
-            <span className="text-[11px] font-medium text-brand-teal-dark">
-              {CLINIC.motto}
+            <span className="hidden sm:block text-[11px] font-medium text-brand-teal-dark">
+             {CLINIC.motto}
             </span>
           </span>
         </a>

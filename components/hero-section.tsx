@@ -141,7 +141,7 @@
         transition={{ duration: 0.7, delay: 0.1 }}
         className="mt-3 max-w-3xl font-heading text-lg font-semibold text-white/90 sm:text-2xl md:text-3xl"
       >
-        20+ Years of Trusted Dental Excellence
+       
       </motion.p>
 
       <motion.p
@@ -150,9 +150,8 @@
         transition={{ duration: 0.7, delay: 0.2 }}
 className="mt-4 max-w-2xl text-sm leading-relaxed text-white/85 sm:text-base md:text-lg"
       >
-        Providing advanced dental care in Sirhind with over 20 years of
-        experience, modern technology, single-visit RCT, aligners, implants,
-        and personalized treatment for every patient.
+        Modern Technology • Implants • Aligners • Single Visit RCT
+
       </motion.p>
     </div>
   </div>

@@ -107,7 +107,7 @@
   >
     
   </motion.div>
-        <div className="flex flex-col items-center text-center gap-4 lg:flex-row lg:items-center lg:text-left lg:gap-10">
+        <div className="flex flex-col items-center text-center gap-2 lg:flex-row lg:items-center lg:text-left lg:gap-8">
     {/* Logo */}
     <motion.div
       initial={{ opacity: 0, x: -30 }}
@@ -130,7 +130,7 @@
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.05 }}
-        className="max-w-3xl font-heading text-2xl font-extrabold leading-tight tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl"
+        className="max-w-3xl font-heading text-3xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl"
       >
         Advanced Dental Care in Sirhind
       </motion.h1>
@@ -145,21 +145,20 @@
       </motion.p>
 
       <motion.p
-        initial={{ opacity: 0, y: 24 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7, delay: 0.2 }}
-className="mt-4 max-w-2xl text-sm leading-relaxed text-white/85 sm:text-base md:text-lg"
-      >
-        
-
-      </motion.p>
+  initial={{ opacity: 0, y: 24 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7, delay: 0.2 }}
+  className="mt-3 max-w-2xl text-base font-medium text-white/85 sm:text-lg md:text-xl"
+>
+  Single Visit RCT • Aligners • Implants • Family Dental Care
+</motion.p>
     </div>
   </div>
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="mt-8 flex flex-col sm:flex-row flex-wrap items-center justify-center lg:justify-start gap-3"
+            className="mt-2 flex flex-col sm:flex-row flex-wrap items-center justify-center lg:justify-start gap-3"
           >
           <a
     href="https://forms.gle/syvtA4mbWB3xguFt5"
@@ -193,7 +192,7 @@ className="mt-4 max-w-2xl text-sm leading-relaxed text-white/85 sm:text-base md:
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.4 }}
-            className="mt-10 grid w-full max-w-4xl grid-cols-2 gap-3 sm:grid-cols-2 lg:grid-cols-4"
+            className="mt-6 grid w-full max-w-4xl grid-cols-2 gap-3 sm:grid-cols-2 lg:grid-cols-4"
           >
             {badges.map((b) => (
               <li

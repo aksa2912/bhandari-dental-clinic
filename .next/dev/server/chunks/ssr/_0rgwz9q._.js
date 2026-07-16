@@ -598,7 +598,7 @@ function HeroSection() {
                                     width: 350,
                                     height: 300,
                                     priority: true,
-                                    className: "h-auto w-44 sm:w-48 md:w-56 lg:w-72"
+                                    className: "h-auto w-44 sm:w-52 md:w-60 lg:w-80"
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero-section.tsx",
                                     lineNumber: 118,

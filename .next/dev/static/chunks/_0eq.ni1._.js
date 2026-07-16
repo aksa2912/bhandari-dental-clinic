@@ -639,7 +639,7 @@ function HeroSection() {
                                     width: 350,
                                     height: 300,
                                     priority: true,
-                                    className: "h-auto w-44 sm:w-52 md:w-60 lg:w-80"
+                                    className: "h-auto w-60 sm:w-60 md:w-60 lg:w-80"
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero-section.tsx",
                                     lineNumber: 118,
@@ -704,8 +704,7 @@ function HeroSection() {
                                             duration: 0.7,
                                             delay: 0.2
                                         },
-                                        className: "mt-4 max-w-2xl text-sm leading-relaxed text-white/85 sm:text-base md:text-lg",
-                                        children: "Single Visit RCT • Aligners • Implants • Family Dental Care"
+                                        className: "mt-4 max-w-2xl text-sm leading-relaxed text-white/85 sm:text-base md:text-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/components/hero-section.tsx",
                                         lineNumber: 147,

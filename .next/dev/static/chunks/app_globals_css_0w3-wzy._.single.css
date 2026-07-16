@@ -715,6 +715,10 @@
     width: calc(var(--spacing) * 44);
   }
 
+  .w-60 {
+    width: calc(var(--spacing) * 60);
+  }
+
   .w-auto {
     width: auto;
   }
@@ -2236,6 +2240,12 @@
   @media (min-width: 40rem) {
     .sm\:w-52 {
       width: calc(var(--spacing) * 52);
+    }
+  }
+
+  @media (min-width: 40rem) {
+    .sm\:w-60 {
+      width: calc(var(--spacing) * 60);
     }
   }
 

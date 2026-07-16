@@ -119,9 +119,9 @@
         src="clinic/logo.png"
         alt="Bhandari Dental Clinic Logo"
         width={350}
-        height={350}
+        height={300}
         priority
-       className="h-auto w-32 sm:w-48 md:w-56 lg:w-72"     />
+       className="h-auto w-24 sm:w-40 md:w-52 lg:w-72"    />
     </motion.div>
 
     {/* Text Content */}
@@ -150,7 +150,7 @@
         transition={{ duration: 0.7, delay: 0.2 }}
 className="mt-4 max-w-2xl text-sm leading-relaxed text-white/85 sm:text-base md:text-lg"
       >
-        Modern Technology • Implants • Aligners • Single Visit RCT
+        Single Visit RCT • Aligners • Implants • Family Dental Care
 
       </motion.p>
     </div>

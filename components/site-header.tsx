@@ -37,7 +37,7 @@ export function SiteHeader() {
           : 'bg-transparent',
       )}
     >
-     <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+     <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="#home" className="flex items-center gap-2.5">
           <span className="flex size-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-blue to-brand-teal text-primary-foreground shadow-md">
           <ToothMark />

@@ -7,28 +7,24 @@ import { SectionHeading } from '@/components/section-heading'
 
 const testimonials = [
   {
-    name: 'Harpreet Kaur',
-    location: 'Sirhind',
+    name: 'Loveleen Chandok',
     rating: 5,
-    text: 'I got my root canal done in a single visit and felt zero pain. Dr. Bhandari and the team are extremely professional and caring. Highly recommend this clinic to everyone.',
+    text: 'Got my front teeth chiped after sliping. Dr. Upender did the procedure and now, my teeth looks like same as it was earlier. Also, i would like to mention here that clinic is well maintained from safety concern and all safety gadets are being used by doctors from Covid point of vew. Thanku doc for the service and I highly recommend him for any kind of dental issues',
   },
   {
-    name: 'Rajesh Kumar',
-    location: 'Fatehgarh Sahib',
+    name: 'Barinder Singh',
     rating: 5,
-    text: 'The clinic is very clean and modern. My whole family visits here for regular checkups. The doctors explain everything patiently and the treatment is genuinely affordable.',
+    text: 'Totally happy with my new denture which Dr Bhandari made for me. Good skills, efficinet , quick in treatment, as well as not costly at all. Saved me a lot of money as well as a lot of time. Thank you Doctor.',
   },
   {
-    name: 'Simran Gill',
-    location: 'Sirhind',
+    name: 'Arman Virk',
     rating: 5,
-    text: 'Got my braces done here and the results are amazing. The staff is friendly and the environment is so comfortable. Best dental clinic in the area by far.',
+    text: 'Great experience indulging with Dr. Bhandari & his wife, superb dentists, good advisors, painless procedures.#bestintown i must say🤞🏻',
   },
   {
-    name: 'Amanpreet Singh',
-    location: 'Bassi Pathana',
+    name: 'Rajwinder farmer',
     rating: 5,
-    text: 'Came in with a dental emergency and they attended to me immediately. Very experienced dentists with a gentle approach. Thank you for saving my tooth!',
+    text: 'Bht vdya nature de ne sir and bht vdya way nal kam krde ne ..mainu feel v ni hunda ki mere RCT krke caping hoyi aa ..Thanku for your services ...',
   },
 ]
 
@@ -122,6 +118,7 @@ export function TestimonialsSection() {
                 />
               ))}
             </div>
+            
             <button
               type="button"
               onClick={() => move(1)}
@@ -133,6 +130,16 @@ export function TestimonialsSection() {
           </div>
         </div>
       </div>
+      <div className="mt-8 text-center">
+            <a
+              href="PASTE_YOUR_GOOGLE_REVIEW_LINK_HERE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-full bg-gradient-to-r from-brand-blue to-brand-teal px-6 py-3 text-sm font-semibold text-white shadow-md transition-transform hover:scale-105"
+            >
+              ⭐ View All Google Reviews
+            </a>
+          </div>
     </section>
   )
 }

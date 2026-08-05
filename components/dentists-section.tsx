@@ -9,13 +9,13 @@ const dentists = [
   {
     name: 'Dr. Upinder Bhandari',
     qualification: 'BDS',
-    image: '/clinic/dr-upinder.png',
+    image: '/clinic/dr-upnder.png',
     tagline: 'Founder & Senior Dental Surgeon',
   },
   {
     name: 'Dr. Kimmy Bhandari',
     qualification: 'BDS',
-    image: '/clinic/dr-kimmy.png',
+    image: '/clinic/dr-kmmy.png',
     tagline: 'Dental Surgeon & Smile Specialist',
   },
 ]

@@ -518,10 +518,6 @@
     margin-inline: auto;
   }
 
-  .mt-1 {
-    margin-top: calc(var(--spacing) * 1);
-  }
-
   .mt-1\.5 {
     margin-top: calc(var(--spacing) * 1.5);
   }
@@ -556,10 +552,6 @@
 
   .mt-14 {
     margin-top: calc(var(--spacing) * 14);
-  }
-
-  .mt-15 {
-    margin-top: calc(var(--spacing) * 15);
   }
 
   .mb-5 {

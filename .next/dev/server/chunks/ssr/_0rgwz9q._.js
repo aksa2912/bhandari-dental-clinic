@@ -1256,13 +1256,13 @@ const dentists = [
         name: 'Dr. Upinder Bhandari',
         qualification: 'BDS',
         image: '/clinic/dr-upnder.png',
-        tagline: 'Founder & Senior Dental Surgeon'
+        tagline: 'BDS, Dentist'
     },
     {
         name: 'Dr. Kimmy Bhandari',
         qualification: 'BDS',
         image: '/clinic/dr-kmmy.png',
-        tagline: 'Dental Surgeon & Smile Specialist'
+        tagline: 'BDS, Dentist'
     }
 ];
 function DentistsSection() {

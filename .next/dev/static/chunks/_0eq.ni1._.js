@@ -1315,13 +1315,13 @@ const dentists = [
     {
         name: 'Dr. Upinder Bhandari',
         qualification: 'BDS',
-        image: '/clinic/dr-upnder.png',
+        image: '/clinic/dr-upnder.jpeg',
         tagline: 'BDS, Dentist'
     },
     {
         name: 'Dr. Kimmy Bhandari',
         qualification: 'BDS',
-        image: '/clinic/dr-kmmy.png',
+        image: '/clinic/dr-kmmy.jpeg',
         tagline: 'BDS, Dentist'
     }
 ];

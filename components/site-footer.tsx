@@ -15,7 +15,6 @@ const serviceLinks = [
   'Braces & Aligners',
   'Smile Designing',
   'Teeth Whitening',
-  'Emergency Care',
 ]
 
 export function SiteFooter() {

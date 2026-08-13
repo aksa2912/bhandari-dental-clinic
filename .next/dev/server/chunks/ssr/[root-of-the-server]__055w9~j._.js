@@ -542,8 +542,7 @@ const serviceLinks = [
     'Dental Implants',
     'Braces & Aligners',
     'Smile Designing',
-    'Teeth Whitening',
-    'Emergency Care'
+    'Teeth Whitening'
 ];
 function SiteFooter() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -570,17 +569,17 @@ function SiteFooter() {
                                                 fill: "currentColor"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/site-footer.tsx",
-                                                lineNumber: 29,
+                                                lineNumber: 28,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/site-footer.tsx",
-                                            lineNumber: 28,
+                                            lineNumber: 27,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/site-footer.tsx",
-                                        lineNumber: 27,
+                                        lineNumber: 26,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -588,13 +587,13 @@ function SiteFooter() {
                                         children: "Bhandari Dental"
                                     }, void 0, false, {
                                         fileName: "[project]/components/site-footer.tsx",
-                                        lineNumber: 35,
+                                        lineNumber: 34,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/site-footer.tsx",
-                                lineNumber: 26,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -602,7 +601,7 @@ function SiteFooter() {
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$clinic$2d$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CLINIC"].motto
                             }, void 0, false, {
                                 fileName: "[project]/components/site-footer.tsx",
-                                lineNumber: 39,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -610,7 +609,7 @@ function SiteFooter() {
                                 children: "Providing advanced, family-focused dental care in Sirhind with over 20 years of trusted experience."
                             }, void 0, false, {
                                 fileName: "[project]/components/site-footer.tsx",
-                                lineNumber: 42,
+                                lineNumber: 41,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -626,12 +625,12 @@ function SiteFooter() {
                                             className: "size-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/site-footer.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 53,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/site-footer.tsx",
-                                        lineNumber: 47,
+                                        lineNumber: 46,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -642,12 +641,12 @@ function SiteFooter() {
                                             className: "size-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/site-footer.tsx",
-                                            lineNumber: 61,
+                                            lineNumber: 60,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/site-footer.tsx",
-                                        lineNumber: 56,
+                                        lineNumber: 55,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -658,24 +657,24 @@ function SiteFooter() {
                                             className: "size-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/site-footer.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 67,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/site-footer.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 62,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/site-footer.tsx",
-                                lineNumber: 46,
+                                lineNumber: 45,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/site-footer.tsx",
-                        lineNumber: 25,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -685,7 +684,7 @@ function SiteFooter() {
                                 children: "Quick Links"
                             }, void 0, false, {
                                 fileName: "[project]/components/site-footer.tsx",
-                                lineNumber: 74,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -697,23 +696,23 @@ function SiteFooter() {
                                             children: link.label
                                         }, void 0, false, {
                                             fileName: "[project]/components/site-footer.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 79,
                                             columnNumber: 17
                                         }, this)
                                     }, link.href, false, {
                                         fileName: "[project]/components/site-footer.tsx",
-                                        lineNumber: 79,
+                                        lineNumber: 78,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/site-footer.tsx",
-                                lineNumber: 77,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/site-footer.tsx",
-                        lineNumber: 73,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -723,7 +722,7 @@ function SiteFooter() {
                                 children: "Services"
                             }, void 0, false, {
                                 fileName: "[project]/components/site-footer.tsx",
-                                lineNumber: 92,
+                                lineNumber: 91,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -735,23 +734,23 @@ function SiteFooter() {
                                             children: s
                                         }, void 0, false, {
                                             fileName: "[project]/components/site-footer.tsx",
-                                            lineNumber: 98,
+                                            lineNumber: 97,
                                             columnNumber: 17
                                         }, this)
                                     }, s, false, {
                                         fileName: "[project]/components/site-footer.tsx",
-                                        lineNumber: 97,
+                                        lineNumber: 96,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/site-footer.tsx",
-                                lineNumber: 95,
+                                lineNumber: 94,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/site-footer.tsx",
-                        lineNumber: 91,
+                        lineNumber: 90,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -761,7 +760,7 @@ function SiteFooter() {
                                 children: "Contact"
                             }, void 0, false, {
                                 fileName: "[project]/components/site-footer.tsx",
-                                lineNumber: 110,
+                                lineNumber: 109,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -774,14 +773,14 @@ function SiteFooter() {
                                                 className: "size-4 shrink-0 text-brand-teal"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/site-footer.tsx",
-                                                lineNumber: 115,
+                                                lineNumber: 114,
                                                 columnNumber: 15
                                             }, this),
                                             __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$clinic$2d$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CLINIC"].address
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/site-footer.tsx",
-                                        lineNumber: 114,
+                                        lineNumber: 113,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -793,19 +792,19 @@ function SiteFooter() {
                                                     className: "size-4 shrink-0 text-brand-teal"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/site-footer.tsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 122,
                                                     columnNumber: 17
                                                 }, this),
                                                 __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$clinic$2d$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CLINIC"].phoneDisplay
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/site-footer.tsx",
-                                            lineNumber: 119,
+                                            lineNumber: 118,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/site-footer.tsx",
-                                        lineNumber: 118,
+                                        lineNumber: 117,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -817,37 +816,37 @@ function SiteFooter() {
                                                     className: "size-4 shrink-0 text-brand-teal"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/site-footer.tsx",
-                                                    lineNumber: 132,
+                                                    lineNumber: 131,
                                                     columnNumber: 17
                                                 }, this),
                                                 __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$clinic$2d$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CLINIC"].email
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/site-footer.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 127,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/site-footer.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 126,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/site-footer.tsx",
-                                lineNumber: 113,
+                                lineNumber: 112,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/site-footer.tsx",
-                        lineNumber: 109,
+                        lineNumber: 108,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/site-footer.tsx",
-                lineNumber: 24,
+                lineNumber: 23,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -863,31 +862,31 @@ function SiteFooter() {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/site-footer.tsx",
-                            lineNumber: 142,
+                            lineNumber: 141,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$6_$40$babel$2b$core$40$7$2e$2_40a7effce8bcad24669d45809ebe449e$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: "Dr. Upinder Bhandari (BDS) · Dr. Kimmy Bhandari (BDS)"
                         }, void 0, false, {
                             fileName: "[project]/components/site-footer.tsx",
-                            lineNumber: 146,
+                            lineNumber: 145,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/site-footer.tsx",
-                    lineNumber: 141,
+                    lineNumber: 140,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/site-footer.tsx",
-                lineNumber: 140,
+                lineNumber: 139,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/site-footer.tsx",
-        lineNumber: 23,
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 }

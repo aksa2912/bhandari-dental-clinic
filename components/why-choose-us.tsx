@@ -16,7 +16,7 @@ import { SectionHeading } from '@/components/section-heading'
 
 const features = [
   { icon: Timer, title: '20+ Years Experience', text: 'Two decades of trusted dental care in Sirhind.' },
-  { icon: GraduationCap, title: 'Experienced BDS Dentists', text: 'Qualified professionals dedicated to your smile.' },
+  { icon: GraduationCap, title: ' BDS Dentists', text: 'Qualified professionals dedicated to your smile.' },
   { icon: CalendarClock, title: 'Maximum Work, Minimum Visits', text: 'Efficient care that respects your time.' },
   { icon: Sparkles, title: 'Single Visit RCT Available', text: 'Root canals completed in one comfortable sitting.' },
   { icon: Microscope, title: 'Modern Equipment', text: 'Advanced technology for precise, gentle treatment.' },

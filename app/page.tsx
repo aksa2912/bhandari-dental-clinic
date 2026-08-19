@@ -22,7 +22,7 @@ export default function Page() {
         <DentistsSection />
         <ServicesSection />
         <WhyChooseUs />
-       
+       <TechnologySection /> 
         <GallerySection />
         <TestimonialsSection />
         <AppointmentCta />

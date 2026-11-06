@@ -9,7 +9,7 @@ export default function AdminDashboard() {
   const [blockReason, setBlockReason] = useState('');
 
   const fetchAppointments = () => {
-fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/appointments`, {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/appointments`, {
       credentials: 'include'
     })
       .then(res => {
@@ -35,7 +35,7 @@ fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/appointments`, {
 
   const handleLogout = async () => {
     try {
-await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/auth/logout`, {
+      await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/auth/logout`, {
         method: 'POST',
         credentials: 'include' 
       });
@@ -48,7 +48,7 @@ await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/auth/logout`, {
   const handleBlockDate = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-const res = await fetch('http://localhost:5000/api/blocked-dates', {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/blocked-dates`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         credentials: 'include',
@@ -60,6 +60,26 @@ const res = await fetch('http://localhost:5000/api/blocked-dates', {
         setBlockReason('');
       } else {
         alert('Failed to block date');
+      }
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  const handleCancel = async (id: number) => {
+    if (!confirm('Are you sure you want to cancel this appointment?')) return;
+
+    try {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/appointments/${id}/cancel`, {
+        method: 'PATCH',
+        credentials: 'include'
+      });
+      
+      if (res.ok) {
+        // Refresh the table to show the updated status
+        fetchAppointments(); 
+      } else {
+        alert('Failed to cancel appointment');
       }
     } catch (err) {
       console.error(err);
@@ -83,7 +103,6 @@ const res = await fetch('http://localhost:5000/api/blocked-dates', {
     });
   };
 
-  // Move the loading check AFTER all hooks and functions are defined
   if (loading) return <div className="p-8 text-center">Loading...</div>;
 
   return (
@@ -102,7 +121,7 @@ const res = await fetch('http://localhost:5000/api/blocked-dates', {
           </div>
         </div>
 
-        {/* THE BLOCK DATE FORM GOES HERE */}
+        {/* Block Date Form */}
         <div className="bg-white p-6 rounded-xl shadow-lg mb-8">
           <h2 className="text-xl font-bold mb-4">Block a Date</h2>
           <form onSubmit={handleBlockDate} className="flex gap-4 items-end">
@@ -132,6 +151,7 @@ const res = await fetch('http://localhost:5000/api/blocked-dates', {
           </form>
         </div>
 
+        {/* Appointments Table */}
         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
           <table className="w-full text-left border-collapse">
             <thead>
@@ -142,12 +162,13 @@ const res = await fetch('http://localhost:5000/api/blocked-dates', {
                 <th className="p-4">Phone</th>
                 <th className="p-4">Treatment</th>
                 <th className="p-4">Status</th>
+                <th className="p-4">Action</th> {/* <-- Added Action Header */}
               </tr>
             </thead>
             <tbody>
               {appointments.length === 0 ? (
                 <tr>
-                  <td colSpan={6} className="p-8 text-center text-gray-500">
+                  <td colSpan={7} className="p-8 text-center text-gray-500">
                     No appointments found.
                   </td>
                 </tr>
@@ -162,9 +183,23 @@ const res = await fetch('http://localhost:5000/api/blocked-dates', {
                     <td className="p-4">{appt.patient_phone}</td>
                     <td className="p-4">{appt.treatment_name}</td>
                     <td className="p-4">
-                      <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-bold uppercase">
+                      <span className={`px-3 py-1 rounded-full text-xs font-bold uppercase ${
+                        appt.status === 'cancelled' 
+                          ? 'bg-red-100 text-red-800' 
+                          : 'bg-green-100 text-green-800'
+                      }`}>
                         {appt.status}
                       </span>
+                    </td>
+                    <td className="p-4">
+                      {appt.status !== 'cancelled' && (
+                        <button 
+                          onClick={() => handleCancel(appt.id)}
+                          className="text-red-600 hover:text-red-800 font-medium text-sm"
+                        >
+                          Cancel
+                        </button>
+                      )}
                     </td>
                   </tr>
                 ))

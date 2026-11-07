@@ -9,7 +9,8 @@ export default function BookPage() {
   const [date, setDate] = useState('');
   const [slots, setSlots] = useState<string[]>([]);
   const [selectedSlot, setSelectedSlot] = useState('');
-  
+    const [email, setEmail] = useState('');
+
   // Patient details
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
@@ -45,6 +46,7 @@ const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/appointments`, {
         body: JSON.stringify({
           patientName: name,
           patientPhone: phone,
+          patientEmail: email, // <-- ADD THIS
           treatmentId: parseInt(selectedTreatment),
           startTime: selectedSlot
         })
@@ -53,7 +55,7 @@ const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/appointments`, {
       const data = await res.json();
 
       if (res.status === 201) {
-        setMessage('✅ Appointment Confirmed!');
+        setMessage('✅ Appointment Confirmed! Please check your email for details.');
                 // Refresh the slots so the booked one disappears
         fetch(`http://localhost:5000/api/availability?date=${date}&treatmentId=${selectedTreatment}`)
           .then(res => res.json())
@@ -128,7 +130,10 @@ const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/appointments`, {
             <label className="block text-sm font-medium mb-1">Phone Number</label>
             <input type="tel" required className="w-full border p-2 rounded" value={phone} onChange={e => setPhone(e.target.value)} />
           </div>
-
+          <div>
+            <label className="block text-sm font-medium mb-1">Email Address</label>
+            <input type="email" required className="w-full border p-2 rounded" value={email} onChange={e => setEmail(e.target.value)} placeholder="To receive confirmation" />
+          </div>
           <button type="submit" className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700">
             Confirm Booking
           </button>
